@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Button from "@mui/material/Button"
@@ -30,10 +31,10 @@ export default function Home() {
         {/* bg-slate-800 e border-b-lime-400*/}
         
         <div className="h-[80vh] w-full bg-gradient-to-b from-white to-gray-300">
-          <div className="fixed top-5 right-10">
+          <Link href="/compra" className="fixed top-5 right-10">
             <Button color="primary" variant="outlined">Fazer pedido</Button>
-          </div>
-          <div className="flex flex-col-reverse grow relative left-1/2 -translate-x-[90%] transform top-1/4 z-10 w-[32rem] lg:flex-row">
+          </Link>
+          <div className="flex flex-col-reverse grow relative left-[17vw] lg:left-1/2 lg:-translate-x-[90%] transform top-1/4 z-10 w-[20rem] md:w-[32rem] lg:flex-row">
               <Image
                 src="/white_t-shirt.webp"
                 width={584}
@@ -41,7 +42,7 @@ export default function Home() {
                 alt="White T-shirt"
                 className="w-52 md:w-96 lg:w-full"
               />
-            <h1 className="text-7xl font-bold flex-shrink-0 max-w-[28rem]">Sua marca estilizada de roupas!</h1>
+            <h1 className="text-3xl md:text-7xl font-bold flex-shrink-0 max-w-[28rem]">Sua marca estilizada de roupas!</h1>
           </div>
         </div>
         <div className="relative -top-20 ">

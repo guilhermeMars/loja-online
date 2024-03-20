@@ -13,11 +13,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="ml-0 fixed z-10">
+    <nav className="ml-0 fixed z-30">
       <ul className="list-disc flex flex-col gap-5 fixed left-0 top-0 bottom-0 justify-center sm:m-6 m-3 ">
         {menu.map((x, index) => {
           // const CustomTag = `${x.icon} className="sm:text-4 xl text-2xl text-primary group-hover:text-accent  transition-all ease-in-out duration-300  sm:ml-5  flex-shrink-0"`;
-          const ClassName = "w-8 m-1";
+          const ClassName = "w-8 m-1 z-30";
           return(
             <a
                 href={x.url}
@@ -25,7 +25,7 @@ const Navbar = () => {
                 className="flex items-center flex-row group sm:text-4xl xl text-2xl text-primary group-hover:text-accent transition-all ease-in-out duration-300  sm:ml-5  flex-shrink-0"
             >
                 <div className='flex items-center justify-center flex-row group -z-10'>
-                  <div className='bg-white rounded-full absolute -z-10 w-9 h-9 md:left-4 md:w-12 md:h-12 group-hover:w-48 origin-left transition-all ease-in-out duration-300'></div>
+                  <div className='bg-white rounded-full absolute z-20 w-9 h-9 md:left-4 md:w-12 md:h-12 md:group-hover:w-48 group-hover:w-80 origin-left transition-all ease-in-out duration-300'></div>
                   {
                     (x.icon === 'FaHouse') ?
                         <FaHouse className={ClassName}/>
