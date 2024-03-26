@@ -9,6 +9,8 @@
 - Shorts: import { PiPants } from "react-icons/pi";
 - Peso: import { IoBarbell } from "react-icons/io5";
 
+*Cor titulo alternativa* - text-gray-700
+
  className="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
 
  <span className="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
