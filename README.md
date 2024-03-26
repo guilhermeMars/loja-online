@@ -7,6 +7,7 @@ O intuito é colocar em prática, demonstrando minha lógica e conhecimento para
 
 Não estou tendo auxílio na criação do projeto. Tudo feito aqui é a partir do que já aprendi e experiências de mercado.
 # Tecnologias
+- TypeScript
 ## Front-ent
 - Next.js
 - Tailwind CSS
